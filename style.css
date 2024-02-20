@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+  background-color: black;
+  font-weight: bold;
+}
+
+/* HEADER */
+header{
+  background-color: black;
+  padding: 10px;
+  border: 1px aliceblue solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: end;
+  width: 100vw;
+}
+
+.home-btn{
+  font-weight: 700;
+  font-size: larger;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.home-btn:hover{
+  color: rgb(148, 6, 153);
+  box-shadow: inset 2px rgb(148, 6, 153);
+}
+
+
+/*MAIN*/
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+
+strong{
+  color: blueviolet;
+}
+
+.curriculo{
+  display: block;
+  padding: 30px;
+  border: 1px aliceblue solid;
+  height: 500px;
+  width: 470px;
+  margin-top: 10px;
+}
+
+.content{
+  display: block;
+  padding: 30px;
+  border: 1px aliceblue solid;
+  height: 500px;
+  width: 470px;
+  margin-top: 10px;
+}
+
+.imageMoldure{
+  border: 1px aliceblue solid;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+img{
+  width: 80px;
+  height: 80px;
+}
+
+node{
+  color:rgb(13, 233, 13)
+}
+
+rust{
+  color: orangered;
+}
+
+typescript{
+  color: rgb(74, 74, 252);
+}
+
+javascript{
+  color: yellow;
+}
+
+shellscript{
+  color: brown;
+}
+
+.project{
+  margin-bottom: 10px;
+}
