@@ -35,6 +35,29 @@ header{
   box-shadow: inset 2px rgb(148, 6, 153);
 }
 
+.container-header{
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
 
 /*MAIN*/
 .container{
@@ -45,18 +68,26 @@ header{
   height: 90vh;
 }
 
-
-strong{
-  color: blueviolet;
-}
-
 .curriculo{
+  overflow: auto;
   display: block;
   padding: 30px;
   border: 1px aliceblue solid;
   height: 500px;
   width: 470px;
-  margin-top: 10px;
+  margin-top: 5px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-item{
+  margin-left: 5px;
+}
+
+strong{
+  color: blueviolet;
 }
 
 .content{
