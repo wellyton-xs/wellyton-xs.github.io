@@ -1,17 +1,16 @@
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  color: aliceblue;
-  background-color: black;
-  font-weight: bold;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+    color: #00C848;
+    background-color: #08111C;
 }
 
 /* HEADER */
 header{
-  background-color: black;
   padding: 10px;
-  border: 1px aliceblue solid;
+  border: 1px #00C848 solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,12 +30,15 @@ header{
 }
 
 .home-btn:hover{
-  color: rgb(148, 6, 153);
-  box-shadow: inset 2px rgb(148, 6, 153);
+  color: #00C848;
 }
 
 .container-header{
   padding: 5px;
+}
+
+a{
+  color: aliceblue;
 }
 
 ul {
@@ -59,6 +61,10 @@ li a {
   text-decoration: none;
 }
 
+a:hover{
+  color: #00C848;
+}
+
 /*MAIN*/
 .container{
   display: flex;
@@ -66,16 +72,6 @@ li a {
   justify-content: center;
   margin: 0 auto;
   height: 90vh;
-}
-
-.curriculo{
-  overflow: auto;
-  display: block;
-  padding: 30px;
-  border: 1px aliceblue solid;
-  height: 500px;
-  width: 470px;
-  margin-top: 5px;
 }
 
 .flex-container{
@@ -90,12 +86,13 @@ strong{
   color: blueviolet;
 }
 
-.content{
+.card{
+  overflow: auto;
   display: block;
   padding: 30px;
-  border: 1px aliceblue solid;
-  height: 500px;
-  width: 470px;
+  border: 1px #00C848 solid;
+  height: 80vh;
+  width: 80vw;
   margin-top: 10px;
 }
 
@@ -129,6 +126,10 @@ javascript{
 
 shellscript{
   color: brown;
+}
+
+c-sharp{
+  color: purple;
 }
 
 .project{
