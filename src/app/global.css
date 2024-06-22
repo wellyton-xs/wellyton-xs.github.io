@@ -1,43 +1,43 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "JetBrains Mono", monospace;
-    color: #00C848;
-    background-color: #08111C;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "JetBrains Mono", monospace; */
+  color: #00c848;
+  background-color: #08111c;
 }
 
 /* HEADER */
-header{
+header {
   padding: 10px;
-  border: 1px #00C848 solid;
+  border: 1px #00c848 solid;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100vw;
 }
 
-.home-btn{
+.home-btn {
   font-weight: 700;
   font-size: larger;
   text-decoration: none;
   color: aliceblue;
 }
 
-.home-btn:hover{
-  color: #00C848;
+.home-btn:hover {
+  color: #00c848;
 }
 
-.container-header{
+.container-header {
   padding: 5px;
 }
 
-a{
+a {
   color: aliceblue;
 }
 
@@ -61,12 +61,12 @@ li a {
   text-decoration: none;
 }
 
-a:hover{
-  color: #00C848;
+a:hover {
+  color: #00c848;
 }
 
 /*MAIN*/
-.container{
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,80 +74,97 @@ a:hover{
   height: 90vh;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
 }
 
-.flex-item{
+.flex-item {
   margin-left: 5px;
 }
 
-strong{
+strong {
   color: blueviolet;
 }
 
-.card{
+.card {
   overflow: auto;
   display: block;
   padding: 30px;
-  border: 1px #00C848 solid;
+  border: 1px #00c848 solid;
   height: 80vh;
   width: 80vw;
   margin-top: 10px;
 }
 
-.imageMoldure{
+.imageMoldure {
   border: 1px aliceblue solid;
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
 }
 
-img{
+img {
   width: 80px;
   height: 80px;
 }
 
-.node{
-  color:rgb(13, 233, 13)
+.node {
+  color: rgb(13, 233, 13);
 }
 
-.rust{
+.rust {
   color: orangered;
 }
 
-.typescript{
+.typescript {
   color: rgb(74, 74, 252);
 }
 
-.javascript{
+.javascript {
   color: yellow;
 }
 
-.shellscript{
+.shellscript {
   color: brown;
 }
 
-.c-sharp{
+.c-sharp {
   color: purple;
 }
 
-.project{
+.project {
   margin-bottom: 10px;
 }
 
 .repo {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
 }
 
 .repo-name {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .repo-description {
-    font-size: 14px;
-    color: #555;
+  font-size: 14px;
+  color: #555;
+}
+
+
+.service {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.service-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 14px;
+  color: #555;
 }

@@ -1,13 +1,13 @@
 // components/Repos.tsx
 import React from "react";
-import { Repo } from "../interfaces";
+import { IRepo } from "../interfaces";
 
 export default async function Repos() {
   const data = await getData();
 
   return (
     <div>
-      {data.map((repo: Repo) => (
+      {data.map((repo: IRepo) => (
         <div key={repo.id} className="repo">
           <div className="repo-name">
             <a href={`https://github.com/` + repo.full_name}>{repo.name}</a>

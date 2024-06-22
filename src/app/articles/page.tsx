@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Artigos | Welly"
+}
+
 export default function articles() {
   return (
     <main>

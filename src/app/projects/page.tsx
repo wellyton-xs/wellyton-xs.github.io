@@ -1,7 +1,11 @@
-import Repos from "../../components/Repos";
-import { Repo } from "src/interfaces";
+import Repos from "../../components/repos";
+import { Metadata } from "next";
 
-export default async function Projects({ repos }: any) {
+export const metadata: Metadata = {
+  title: "Projetos | Welly"
+}
+
+export default async function Projects() {
   return (
     <main>
       <section className="container">

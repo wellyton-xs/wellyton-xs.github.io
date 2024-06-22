@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePic from "../assets/welly.webp";
+import profilePic from "../assets/welly3.jpg";
 export default function Home() {
   return (
     <main>
@@ -24,6 +24,7 @@ export default function Home() {
             <strong>formação:</strong> curso técnico em informática <br />
             <strong>instituição:</strong> instituto federal de educação ciência
             e tecnologia da paraíba - campus princesa isabel <br />
+            <strong>jobs:</strong> dell expert, desenvolvimento web, automação, serviços de TI <br />
             <strong>tecnologias:</strong>
             <strong className="node">Node.js</strong>,
             <strong className="typescript">Typescript</strong>,
@@ -58,7 +59,7 @@ export default function Home() {
             jornada aprendendo a programar com meus treze anos. Comecei pela
             paixão por jogos e descobri também uma paixão por programação, desde
             então venho me aventurando no máximo que posso dentro desse mundo.
-            <br />
+            <br/>
             já fiz sites, já fiz automações em shell para os sistemas Linux que
             usei e até aplicativo desktop com electron.js eu já fiz. Até hoje só
             tenho desavenças e magoas com desenvolvimento mobile... Mas vamos

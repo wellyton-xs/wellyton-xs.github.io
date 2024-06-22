@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tortoise | Welly"
+}
+
 export default function Page() {
   return (
     <main>

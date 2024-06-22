@@ -1,6 +1,10 @@
 import * as React from "react";
 import "./global.css";
 import type { Metadata } from "next";
+import Navbar from "src/components/navbar";
+import { JetBrains_Mono } from "next/font/google";
+
+const jbm = JetBrains_Mono({ weight: "700", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "welly's page",
@@ -14,34 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>welly | home</title>
-      </head>
-      <body>
+      <body className={jbm.className}>
         <div id="root">
-          <header>
-            <a href="/" className="home-btn">
-              home
-            </a>
-            <nav className="nav-bar">
-              <ul>
-                <li>
-                  <a href="/services">Serviços</a>
-                </li>
-                <li>
-                  <a href="/projects">Projetos</a>
-                </li>
-                <li>
-                  <a href="/articles">Artigos</a>
-                </li>
-                <li>
-                  <a href="/tortoise">Tortoise</a>
-                </li>
-              </ul>
-            </nav>
-          </header>
+          <Navbar />
           {children}
         </div>
       </body>
