@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Navbar from "src/components/navbar";
 import { JetBrains_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const jbm = JetBrains_Mono({ weight: "700", subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Analytics />
+          <SpeedInsights />
         </div>
       </body>
     </html>
