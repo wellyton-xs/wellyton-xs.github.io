@@ -10,7 +10,7 @@ export default function Services() {
   return (
     <main>
       <section className="container">
-        <div className="card">
+        <div className="card service-container">
           <div className="service">
             <Title>Desenvolvimento de site</Title>
             <Price>A combinar</Price>
@@ -21,19 +21,21 @@ export default function Services() {
           </div>
           <div className="service">
             <Title>Consultoria para montagem ou compra de computador</Title>
-            <Price>80 R$</Price>
+            <Price>50 R$</Price>
           </div>
           <div className="service">
             <Title>Instalação do Windows ou Linux</Title>
             <Price>30R$</Price>
           </div>
           <div className="service">
-            <Title>Formatação de computador (qualquer sistema, com backup)</Title>
+            <Title>
+              Formatação de computador (qualquer sistema, com backup)
+            </Title>
             <Price>50R$</Price>
           </div>
           <div className="service">
             <Title>Manutenção preventiva</Title>
-            <Price>60 R$</Price>
+            <Price>80 R$</Price>
           </div>
         </div>
       </section>
