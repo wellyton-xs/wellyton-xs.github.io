@@ -3,6 +3,7 @@ import "./global.css";
 import type { Metadata } from "next";
 import Navbar from "src/components/navbar";
 import { JetBrains_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 const jbm = JetBrains_Mono({ weight: "700", subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <div id="root">
           <Navbar />
           {children}
+          <Analytics />
         </div>
       </body>
     </html>
